@@ -1,4 +1,4 @@
-# Brainwave_Matrix_Internship_Tasks
+# Brainwave_Matrix_Solutions_Internship_Tasks
 
 Web Development Intern - Task 1: landing page of Uber Eats
 
