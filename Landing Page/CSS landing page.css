@@ -1,0 +1,385 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  background-image: url('https://www.huffmancreative.com/wp-content/uploads/2023/10/2328-03e-230624_UE_Get_Anything_3C-Burgers_0163-RGB-1024x1024.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .login, .auth-buttons .signup {
+  background: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0;
+  background-color: white; 
+}
+
+.search-bar select {
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  outline: none;
+}
+
+.search-bar .search-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sign-in-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sign-in-text a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.map-icon, .calendar-icon {
+  display: none;
+  
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .card-image {
+    width: 400px; 
+    height: 250px; 
+    margin-right: 20px
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .cities-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .header .view-all {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header .view-all:hover {
+    text-decoration: underline;
+  }
+  
+  .map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .map-image {
+    width: 1268px;
+    height: 359px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .city-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 70px;
+    max-width: 800px;
+  }
+  
+  .city-list p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .country-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 70px;
+    max-width: 800px;
+  }
+  
+  .country-list ul {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .country-list li {
+    margin-bottom: 10px;
+  }
+
+  {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .footer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+ 
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .footer-logo span {
+    color: #000;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-lang {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-lang span {
+    font-size: 14px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 30px; 
+    height: auto;
+  }
+  
+  .footer-store-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .store-button {
+    width: 150px; 
+    height: auto;
+  }
+  
+  .footer-info {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .footer-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-info a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+  }
+  
+  .footer-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-info p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #555;
+  }
+
+}
